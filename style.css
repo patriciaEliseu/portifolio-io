@@ -42,6 +42,17 @@ body {
     transition: .2s;
 }
 
+h2.title {
+    color: #fff;
+    font-size: 38px;
+    text-align: center;
+
+}
+
+h2.title span {
+    color: #FF69B4;
+}
+
 
 
 /* estilo cabecalho */
@@ -96,7 +107,7 @@ section.topo-do-site .flex {
 
 .topo-do-site h1 {
     color: #fff;
-    font-size: 34px;
+    font-size: 42px;
     text-align: justify;
     line-height: 40px;
 }
@@ -125,4 +136,44 @@ section.topo-do-site .flex {
     100%{
         top:30px;
     }
+}
+
+/* Estilos das Especialidades */
+
+section.especialidades {
+    padding: 40px 4%;
+}
+
+section.especialidades .flex {
+    gap: 60px;
+}
+
+.especialidades .especialidades-box {
+    color: #fff;
+    padding: 20px;
+    /* border: 2px solid #fff; */
+    margin-top: 45px;
+    border-radius: 20px;
+
+}
+
+.especialidades .especialidades-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 8px #ffffff78;
+}
+
+.especialidades .especialidades-box i {
+    font-size: 78px;
+    color: #FF69B4;
+}
+
+.especialidades .especialidades-box p {
+    display: flex;
+}
+
+.especialidades .especialidades-box h3 {
+    font-size: 28px;
+    margin: 15px 0;
+
+
 }
